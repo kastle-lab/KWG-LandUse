@@ -8,23 +8,49 @@ The focus of KG-LandUse will be on the relevant data for the state of Ohio, as i
 
 # Competency Questions
 
-1. What are the geographic coordinates for the most highly rated soil quality for croplands within Ohio?
-2. What is the availability of sunlight and shading on [geographic location] throughout the year?
-3. Which crops are best suited for [soil type]?
-4. Does [geographic location] have a low or high risk of flooding?
+1. What are the geographic coordinates for the top 10 most highly rated soil quality locations for croplands within Ohio?
+2. Which crops are best suited for [soil type]?
+3. Does [geographic location] have a low or high risk of flooding?
+4. What location within 35 miles of Columbus, Ohio, has the most water access and is suitable for farming?
 
 # Potential Datasets & Existing Ontologies
 
+### Datasets
+
+- Currently N/A
+
+### Ontologies
+
+- [Ontology: Land Use](https://enterpriseintegrationlab.github.io/icity/LandUse/LandUse_1.2/doc/index-en.html#CLUMPClassification)
+
+### NameSpaces
+
+- [Namespace: Open Street Map Land Use](https://wiki.openstreetmap.org/wiki/Map_features#Landuse)
+
 # Useful Links
+
+### Research
+
+- [An Ontology-Based Framework for Geospatial Integration and Querying of Raster Data Cube Using VKG](https://pdfs.semanticscholar.org/1ddc/75800e154748192bb07f92843ea17d6f0475.pdf)
+- [Semantic Querying of Integrated Raster and Relational Data](https://ceur-ws.org/Vol-3485/paper8240.pdf)
+
+### Spatial Imagery
+
+- [Spatial Data Science](https://r-spatial.org/book/part-1.html)
+- [Advanced Rapid Imaging and Analysis (ARIA)](https://aria.jpl.nasa.gov/)
+- [Geographic Information Systems: Earth Data](https://www.earthdata.nasa.gov/learn/pathfinders/gis-pathfinder/find-data#gis-tools)
+- [JPL Opera](https://www.jpl.nasa.gov/go/opera/about-opera)
+- [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/)
+
+### Agriculture
 
 - [Food and Agriculture Organization of the United Nations: Sustainable Land Management](https://www.fao.org/land-water/land/sustainable-land-management/en/)
 - [USDA Crop Production](https://www.usda.gov/topics/farming/crop-production)
 - [USDA: Land Evaluation](https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/land/evaluation-and-assessment)
 - [USDA: National Cooperative Soil Survey](https://www.nrcs.usda.gov/about/partner-with-us/national-cooperative-soil-survey)
-- [Geographic Information Systems: Earth Data](https://www.earthdata.nasa.gov/learn/pathfinders/gis-pathfinder/find-data#gis-tools)
-- [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/)
-- [JPL Opera](https://www.jpl.nasa.gov/go/opera/about-opera)
-- [Advanced Rapid Imaging and Analysis (ARIA)](https://aria.jpl.nasa.gov/)
+
+### General Info
+
 - [Midwest Renewable Energy Land Use Challenges](https://www.nature.org/en-us/about-us/where-we-work/united-states/midwest-demand-for-renewables/)
 - [Solar Energy Industries Association: Project Developments](https://www.seia.org/research-resources/major-solar-projects-list)
 
