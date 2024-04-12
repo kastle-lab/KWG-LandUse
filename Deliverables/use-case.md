@@ -15,9 +15,14 @@ The focus of KG-LandUse will be on the relevant data for the state of Ohio, as i
 
 # Potential Datasets & Existing Ontologies
 
+### Toolsets
+
+- [ArcGIS Pro](https://pro.arcgis.com/en/pro-app/index-geonet-allcontent.html)
+- [USDA Web Soil Survey Interactive Map](https://websoilsurvey.nrcs.usda.gov/app/WebSoilSurvey.aspx)
+
 ### Datasets
 
-- Currently N/A
+- [gNATSGO and gSSURGO Soil Survey Data](https://nrcs.app.box.com/v/soils/folder/17971946225)
 
 ### Ontologies
 
@@ -28,6 +33,18 @@ The focus of KG-LandUse will be on the relevant data for the state of Ohio, as i
 - [Namespace: Open Street Map Land Use](https://wiki.openstreetmap.org/wiki/Map_features#Landuse)
 
 # Useful Links
+
+### Agriculture
+
+- [Food and Agriculture Organization of the United Nations: Sustainable Land Management](https://www.fao.org/land-water/land/sustainable-land-management/en/)
+- [USDA Crop Production](https://www.usda.gov/topics/farming/crop-production)
+- [USDA: Land Evaluation](https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/land/evaluation-and-assessment)
+- [USDA: National Cooperative Soil Survey](https://www.nrcs.usda.gov/about/partner-with-us/national-cooperative-soil-survey)
+
+### General Info
+
+- [Midwest Renewable Energy Land Use Challenges](https://www.nature.org/en-us/about-us/where-we-work/united-states/midwest-demand-for-renewables/)
+- [Solar Energy Industries Association: Project Developments](https://www.seia.org/research-resources/major-solar-projects-list)
 
 ### Research
 
@@ -42,17 +59,11 @@ The focus of KG-LandUse will be on the relevant data for the state of Ohio, as i
 - [JPL Opera](https://www.jpl.nasa.gov/go/opera/about-opera)
 - [Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/)
 
-### Agriculture
+# Guides
 
-- [Food and Agriculture Organization of the United Nations: Sustainable Land Management](https://www.fao.org/land-water/land/sustainable-land-management/en/)
-- [USDA Crop Production](https://www.usda.gov/topics/farming/crop-production)
-- [USDA: Land Evaluation](https://www.nrcs.usda.gov/conservation-basics/natural-resource-concerns/land/evaluation-and-assessment)
-- [USDA: National Cooperative Soil Survey](https://www.nrcs.usda.gov/about/partner-with-us/national-cooperative-soil-survey)
+- [gSSURGO ArcMAP (ArcGIS) User Guide](/UserGuides/gSSURGO_UserGuide_July2020.pdf)
 
-### General Info
-
-- [Midwest Renewable Energy Land Use Challenges](https://www.nature.org/en-us/about-us/where-we-work/united-states/midwest-demand-for-renewables/)
-- [Solar Energy Industries Association: Project Developments](https://www.seia.org/research-resources/major-solar-projects-list)
+  **NOTE:** Guide was created for ArcMAP, so some instructions will require identifying and using the ArcGIS counterpart to achieve results.
 
 # Contributors
 
