@@ -63,7 +63,9 @@ The focus of KG-LandUse will be on the relevant data for the state of Ohio, as i
 
 - [gSSURGO ArcMAP (ArcGIS) User Guide](/UserGuides/gSSURGO_UserGuide_July2020.pdf)
 
-  **NOTE:** Guide was created for ArcMAP, so some instructions will require identifying and using the ArcGIS counterpart to achieve results.
+  **NOTE:** ArcMAP Guide was created for ArcMAP, so some instructions will require identifying and using the ArcGIS counterpart to achieve results.
+
+- [ArcGIS Project Setup and Data Manipulation Guide](/UserGuides/ArcGIS%20Project%20Setup%20and%20Data%20Manipulation.md)
 
 # Contributors
 
