@@ -23,6 +23,7 @@ The focus of KG-LandUse will be on the relevant data for the state of Ohio, as i
 ### Datasets
 
 - [gNATSGO and gSSURGO Soil Survey Data](https://nrcs.app.box.com/v/soils/folder/17971946225)
+- [ArcGIS Genereated Data](./Data/KG_Land_Use_Table.csv)
 
 ### Ontologies
 
