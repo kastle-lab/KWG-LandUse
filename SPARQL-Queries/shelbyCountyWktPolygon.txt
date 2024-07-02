@@ -23,8 +23,8 @@ SELECT DISTINCT ?wkt  WHERE {
     ?smup a kwg-ont:SoilMapUnitPolygon ;
         kwg-ont:soilMapUnit ?smu ; 
         geo:hasGeometry ?geoObj .
-    ?geoObj geo:asWKT ?wkt .  
 
 	?shelbyGeo geo:sfOverlaps ?geoObj .
-    
+        ?geoObj geo:asWKT ?wkt .  
+
  } 
