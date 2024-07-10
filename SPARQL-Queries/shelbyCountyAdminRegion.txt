@@ -1,0 +1,9 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kwg-ont: <http://stko-kwg.geog.ucsb.edu/lod/ontology/>
+
+SELECT ?reg	?rdf ?label where 
+{
+    ?reg ?rdf kwg-ont:AdministrativeRegion_2 ;
+        rdfs:label ?label .
+     FILTER (?label="Shelby County, Ohio")
+} LIMIT 10

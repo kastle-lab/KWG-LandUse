@@ -12,8 +12,8 @@ out_name = "output-name"
 out_fc_path = os.path.join(out_gdb, out_name)
 
 # Change spatial source as needed
-source_sr = arcpy.SpatialReference(4269)  # Source spatial reference NAD83
-target_sr = arcpy.SpatialReference(4326)  # ArcGIS Topography Map WGS1984
+source_sr = arcpy.SpatialReference(4269)  # Source spatial reference NAD83 from KWG
+target_sr = arcpy.SpatialReference(102008)  # Projected Coordinate System Albers_Conical_Equal_Area
 
 # Create a blank output feature class with the target spatial reference
 out_fc = arcpy.management.CreateFeatureclass(out_path=out_gdb,
