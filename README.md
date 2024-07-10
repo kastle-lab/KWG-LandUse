@@ -1,2 +1,3 @@
 # KG-LandUse
- This repository contains the documentation, datasets, schema's, and code for Michael McCain's Knowledge Graph Land Use project. 
+ This repository contains the documentation, datasets, schema, and code for the research project "KnowWhereGraph for Land Use Optimization: Achieving
+Sustainability and Efficiency". 
