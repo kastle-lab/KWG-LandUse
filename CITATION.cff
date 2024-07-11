@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  KnowWhereGraph for Land Use Optimization: Achieving
+  Sustainability and Efficiency
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Michael
+    family-names: McCain
+    orcid: 'https://orcid.org/0009-0008-3664-6248'
+  - given-names: Rakesh
+    family-names: Kandula
+    orcid: 'https://orcid.org/0009-0006-1064-141X'
+  - orcid: 'https://orcid.org/0000-0003-4283-8701'
+    given-names: Cogan
+    family-names: Shimizu
+repository-code: 'https://github.com/kastle-lab/KWG-LandUse'
+url: 'https://kastle-lab.github.io/'
+keywords:
+  - ArcGIS
+  - KnowWhereGraph
