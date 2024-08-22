@@ -7,9 +7,9 @@ PREFIX kwgr: <http://stko-kwg.geog.ucsb.edu/lod/resource/>
 
 SELECT DISTINCT ?wkt  WHERE {
  
-    BIND(kwgr:administrativeRegion.USA.39097 AS ?shelbyCounty)
-    ?shelbyCounty rdfs:label ?county .
-    ?shelbyCounty geo:hasGeometry ?shelbyGeo .
+    BIND(kwgr:administrativeRegion.USA.39097 AS ?madisonCounty)
+    ?madisonCounty rdfs:label ?county .
+    ?madisonCounty geo:hasGeometry ?madisonGeo .
 
     ?smuo a kwg-ont:SoilMapUnitObservation ;
         sosa:hasSimpleResult ?result .
@@ -24,7 +24,7 @@ SELECT DISTINCT ?wkt  WHERE {
         kwg-ont:soilMapUnit ?smu ; 
         geo:hasGeometry ?geoObj .
 
-	?shelbyGeo geo:sfOverlaps ?geoObj .
+	?madisonGeo geo:sfOverlaps ?geoObj .
     ?geoObj geo:asWKT ?wkt .  
 
  } 
