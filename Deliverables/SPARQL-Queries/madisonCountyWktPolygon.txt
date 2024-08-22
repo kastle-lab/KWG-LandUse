@@ -1,0 +1,30 @@
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX kwg-ont: <http://stko-kwg.geog.ucsb.edu/lod/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX kwgr: <http://stko-kwg.geog.ucsb.edu/lod/resource/>
+
+SELECT DISTINCT ?wkt  WHERE {
+ 
+    BIND(kwgr:administrativeRegion.USA.39097 AS ?shelbyCounty)
+    ?shelbyCounty rdfs:label ?county .
+    ?shelbyCounty geo:hasGeometry ?shelbyGeo .
+
+    ?smuo a kwg-ont:SoilMapUnitObservation ;
+        sosa:hasSimpleResult ?result .
+    FILTER(?result = "All areas are prime farmland")
+    
+    ?smuoc a kwg-ont:SoilMapUnitObservationCollection ;
+        sosa:hasMember ?smuo .
+    ?smu a kwg-ont:SoilMapUnit ;
+        kwg-ont:soilMapUnitKey ?smukey ;
+        sosa:isFeatureOfInterestOf ?smuoc .
+    ?smup a kwg-ont:SoilMapUnitPolygon ;
+        kwg-ont:soilMapUnit ?smu ; 
+        geo:hasGeometry ?geoObj .
+
+	?shelbyGeo geo:sfOverlaps ?geoObj .
+    ?geoObj geo:asWKT ?wkt .  
+
+ } 
