@@ -1,0 +1,10 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX kwg-ont: <http://stko-kwg.geog.ucsb.edu/lod/ontology/>
+
+SELECT DISTINCT ?reg ?label where 
+{
+    ?reg ?rdf kwg-ont:AdministrativeRegion_2 ;
+        rdfs:label ?label .
+    FILTER(STRENDS(?label,"Ohio"))
+
+} LIMIT 100
